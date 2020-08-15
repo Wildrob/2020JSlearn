@@ -1,0 +1,11 @@
+# editorconfig.org
+
+root=true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = if
+
+//allows you to define how things are edited - one common argument is to use tab vs. two spaces
+      
