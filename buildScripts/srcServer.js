@@ -21,9 +21,10 @@ app.use(require('webpack-dev-middleware')(compiler,{
 app.get('/', function(req,res)
   {
   res.sendFile(path.join(__dirname, '../src/index.html'));
+      //__dirname - gives you the directory we are in
+      //within src is where we will place our index.html file
   })
-//__dirname - gives you the directory we are in
-//within src is where we will place our index.html file
+
 
 
 app.listen(port, function(err) {
