@@ -23,10 +23,9 @@ global.document.getElementById('users').innerHTML = usersBody;
 
 });
 
-
-
-
-
+//below is rob just learning to use the DOM and JS with html really
+let newtest = "test4";
+global.document.getElementById('firstworking').innerHTML = newtest;
 
 
 
